@@ -46,9 +46,5 @@ ggplot(boot_dat, aes(x = "handspans")) +
 geom_histogram()
 )
 
-plt.hist(boot_means)
-plt.title('20.3 is not small')
-plt.xlabel('Handspans')
-plt.ylabel('Counts')
 
 
